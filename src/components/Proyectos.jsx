@@ -126,13 +126,10 @@ const Proyectos = () => {
                 <div className="content-img"><img src={criptomonedas}  className="img-noticias"/></div>
                 
                 <div className="content-redireccion">
-                  
+
                     <p className="tecnologias" >Cryptocurrency trader</p>
-               
-                    <li>TailwindCSS</li>
-                    <li>Headless UI</li>
-                    <li>Context API</li> 
-                    <li>Soket.io</li>
+
+                    <h5>Real time cryptocurrency trading project. Using axios for API call, spinners for loading and style component for website styles. </h5>
 
                     <div className="ver-proyect">
                         <a target="_blank" href="https://cotizador-de-criptomonedas-ay9j.vercel.app/" className="redireccion-proyect">
