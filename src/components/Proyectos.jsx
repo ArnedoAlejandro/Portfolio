@@ -29,7 +29,7 @@ const Proyectos = () => {
                     <div className="ver-proyect">
                         <a target="_blank" href="https://github.com/ArnedoAlejandro/kioscoApp" className="redireccion-proyect">
                             <button className="boton-repo">
-                                Ver Proyecto
+                            See project
                                 <div class="arrow-wrapper">
                                     <div class="arrow"></div>
                                 </div>
@@ -55,7 +55,7 @@ const Proyectos = () => {
                     <div className="ver-proyect">
                         <a target="_blank" href="https://github.com/ArnedoAlejandro/upTasck_mern" className="redireccion-proyect">
                             <button className="boton-repo">
-                                Ver Proyecto
+                            See project
                                 <div class="arrow-wrapper">
                                     <div class="arrow"></div>
                                 </div>
@@ -81,7 +81,7 @@ const Proyectos = () => {
                     <div className="ver-proyect">
                         <a target="_blank" href="https://crud-neon.vercel.app/" className="redireccion-proyect">
                             <button className="boton-repo">
-                                Ver Proyecto
+                            See project
                                 <div class="arrow-wrapper">
                                     <div class="arrow"></div>
                                 </div>
@@ -108,7 +108,7 @@ const Proyectos = () => {
                     <div className="ver-proyect">
                         <a target="_blank" href="https://presupuesto-sandy.vercel.app/" className="redireccion-proyect">
                             <button className="boton-repo">
-                                Ver Proyecto
+                            See project
                                 <div class="arrow-wrapper">
                                     <div class="arrow"></div>
                                 </div>
@@ -134,7 +134,7 @@ const Proyectos = () => {
                     <div className="ver-proyect">
                         <a target="_blank" href="https://cotizador-de-criptomonedas-ay9j.vercel.app/" className="redireccion-proyect">
                             <button className="boton-repo">
-                                Ver Proyecto
+                            See project
                                 <div class="arrow-wrapper">
                                     <div class="arrow"></div>
                                 </div>
@@ -161,7 +161,7 @@ const Proyectos = () => {
                     <div className="ver-proyect">
                         <a target="_blank" href="https://buscador-de-noticias-rho.vercel.app/" className="redireccion-proyect">
                             <button className="boton-repo">
-                                Ver Proyecto
+                            See project
                                 <div class="arrow-wrapper">
                                     <div class="arrow"></div>
                                 </div>
