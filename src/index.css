@@ -874,7 +874,259 @@ button {
     clip-path: circle(100% at center);
   }
 }
+/* ++++++++++++++++++++++++++++++++ MEDIA 540 +++++++++++++++++++++++++++++++++++ */
+@media (max-width: 540px){
+  .presentacion{
+    max-width: 95%;
+    height: auto;
+    margin:auto;
+    display:flex;
+    flex-direction: column-reverse;
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+  }
+  .contenedor-puesto{
+    width:95%;
+    margin-top: 0.0rem;
+    margin: auto;
+    padding:0.1rem;
+    display:block;
+    text-align:center
+  }
+  .presentacion-puesto{
+    width:100%;
+    font-size:2.7rem;
+    text-align: center;
+    padding:0.1px;
+    margin: auto;
+  }
+  .frontend{
+    width:100%;
+    font-size: 1.3rem;
+    font-weight:bold;
+    padding:0.1px;
+  }
+  .contenedor-titulo{
+    gap: 2rem;
+    width: 100%;
+    
+  }
+  .contenedor-boton{
+    width:100%;
+    padding: 1px;
+    margin-top: 30px;
+  }
+  
+  button {
+    position: relative; 
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 11px;
+    margin-top: 50px;
+  }  
 
+  .icono-scroll{
+    margin: auto;
+    margin-top:3px;
+    /* margin-left: 420px; */
+    animation: icono-scroll 1s infinite alternate linear;
+    align-items: center;
+  }
+  .p-scroll{
+    margin: auto;
+    margin-top: 30px;
+    width: 0px;
+  }
+  .scrrol-img{
+    height: auto;
+    width:100%;
+  }
+  
+  .imagen-presentacion{
+    width: 100%;
+    height:auto;
+    padding: 1px;
+  }
+  .estilos-imagen-foto{
+    width:100%;
+    height: auto;
+    margin: auto;
+  }
+/* ++++++++++++++++++++++++++++++++++ MODAL +++++++++++++++++++++++++++++++++++++++++ */
+
+.modal__inner {
+  margin-top: 80px;
+  width: 90%;
+  height: 600px;
+}
+.contenedor-imagen-modal{
+  width: 700px;
+  margin-top: 30px;
+  margin-left: 140px;
+} 
+.imagen-modal{
+  width: 150px;
+}
+.imagen-modal img {
+  max-width: 100%;
+}
+.contenedor-modal{
+  display: flex;
+  flex-direction: column-reverse;
+  gap:0.1rem;
+}
+.relato{
+  width: 100%;
+  gap: 1rem;
+  margin: auto;
+}
+.relato h2{
+  text-align: center;
+}
+.contenedor-descarga{
+  width:60%;
+  margin:auto;
+}
+.boton-descarga{
+  margin-top: 10px;
+}
+.contenedor-imagen-modal{
+  width: 30%;
+  margin-top: 25px;
+  height:auto;
+} 
+  /* +++++++++++++++++++++++ PROYECTOS ++++++++++++++++++++++++++++++++ */
+  .proyectos-titulo{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight:bold;
+    font-size: 1.3rem;
+    text-shadow: 3px 5px 5px rgb(218, 208, 208);
+    border: none;
+  }
+.nuevooo{
+  width:100%;
+  height:auto;
+  margin: auto;
+}
+.nuevo-content{
+  width:85%;
+  height: auto;
+  display: inline-block;
+  margin: auto; 
+  margin-top:35px;
+  margin-left:15px;
+  padding: 10px;
+  gap:1rem;
+  /* background: #3a3a3a; */
+}
+.content-img{
+  padding: 2px; 
+  margin: auto;
+  width: 100%;
+}
+.img-noticias{
+  width: 100%;  
+}
+.content-redireccion{
+  width:95%;
+  height: 100%;
+  padding: 3px;
+  margin: auto;
+  text-align: center;
+}
+.tecnologias{
+  border-bottom: solid 1px gray;
+  margin-top: 15px;
+}
+.tecnologias{
+text-align: none;
+}
+.ver-proyect{
+width:90%;
+margin: auto;
+}
+.img-git{
+width: 13%;
+margin: auto;
+}
+.boton-repo {
+margin: auto;
+margin-top: 0.5rem;
+}
+.mas-proyectos p{
+font-size: 17px;
+}
+/* ++++++++++++++++++++++++++++++ SKILL +++++++++++++++++++++++++++++++++++++ */
+.skill{
+  width:100%;
+  height: auto;
+  margin:auto;
+  display: inline-block;
+  gap: 1rem;
+  margin-top: 70px;
+}
+.educacion{
+  width: 85%;  
+  display: block;
+  padding: 10px;
+  margin: auto;
+}
+.habilidades{
+  width: 85%;  
+  margin:auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+.educacion-habilidades{
+  font-size: large;
+}
+.img-educacion{
+  width:15%;
+}
+.logo-educacion{
+  width:100%;
+  margin-left: auto;
+  margin-top:10px;
+  gap: 1rem;
+  font-size: 15px;
+}
+.p-educacion{
+  text-align: start;
+  font-size: 13px;
+}
+/* +++++++++++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++++++++++++++++ */
+.footer{
+  height:auto;
+  width:100%;
+  margin-top: 60px;
+  font-size: 12px;
+}
+.footer-container{
+  width: 100%;
+  height: 70px;
+  margin-top: 40px;
+}
+.content-info-footer{
+  width:33%;
+  height:70px;
+  margin: auto;
+}
+.content-individual{
+  width:100%;
+  text-align: center;
+}
+.content-info-footer p{
+  margin-top: 1px;
+}
+.img-footer{
+  width:25%;
+  border-radius: 50%;
+}
+
+}
 /*  +++++++++++++++++++++++++++++++ MEDIA 425 ++++++++++++++++++++++++++++++++++ */
 @media (max-width: 425px){
   .presentacion{
