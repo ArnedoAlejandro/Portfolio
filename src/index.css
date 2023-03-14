@@ -1128,6 +1128,14 @@ font-size: 17px;
 }
 
 }
+/*  +++++++++++++++++++++++++++++++ MEDIA 442 ++++++++++++++++++++++++++++++++++ */
+@media (max-width: 442px){
+  .contenedor-imagen-modal{
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 85px;
+  } 
+}
 /*  +++++++++++++++++++++++++++++++ MEDIA 425 ++++++++++++++++++++++++++++++++++ */
 @media (max-width: 426px){
   .presentacion{
