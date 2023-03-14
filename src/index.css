@@ -1129,7 +1129,7 @@ font-size: 17px;
 
 }
 /*  +++++++++++++++++++++++++++++++ MEDIA 425 ++++++++++++++++++++++++++++++++++ */
-@media (max-width: 425px){
+@media (max-width: 426px){
   .presentacion{
     max-width: 95%;
     height: auto;
@@ -1218,7 +1218,7 @@ font-size: 17px;
 .contenedor-imagen-modal{
   width: 700px;
   margin-top: 30px;
-  margin-left: 60px;
+  margin-left: 80px;
 } 
 .imagen-modal{
   width: 150px;
