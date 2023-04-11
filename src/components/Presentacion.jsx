@@ -19,7 +19,7 @@ const Presentacion = () => {
             </div>
 
             <div className="contenedor-boton">
-                <button className="learn-more" ><label className="btn" for="modal-1">Conoceme</label></button>
+                <button className="learn-more" ><label className="btn" for="modal-1">About me</label></button>
             </div>
 
             <div className="icono-scroll">
