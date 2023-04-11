@@ -27,7 +27,7 @@ const Proyectos = () => {
 
 
                     <div className="ver-proyect">
-                        <a target="_blank" href="https://github.com/ArnedoAlejandro/kioscoApp" className="redireccion-proyect">
+                        <a target="_blank" href="https://appcomida-production.up.railway.app/" className="redireccion-proyect">
                             <button className="boton-repo">
                             See project
                                 <div class="arrow-wrapper">
