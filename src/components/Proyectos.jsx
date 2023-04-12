@@ -3,6 +3,7 @@ import presupuesto from "../assets/img/presupuesto.png"
 import criptomonedas from "../assets/img/criptomonedas.png"
 import gestion from "../assets/img/gestion.png"
 import noticias from "../assets/img/noticias.png"
+import pacientesNuevo from "../assets/img/pacientesNuevo.png"
 import reduxNuevo from "../assets/img/reduxNuevo.png"
 import github from "../assets/img/github.png"
 
@@ -149,17 +150,17 @@ const Proyectos = () => {
             </div>
 
             <div className="nuevo-content">
-                <div className="content-img"><img src={noticias}  className="img-noticias"/></div>
+                <div className="content-img"><img src={pacientesNuevo}  className="img-noticias"/></div>
                 
                 <div className="content-redireccion">
                   
-                    <p className="tecnologias" >News search engine</p>
+                    <p className="tecnologias" >Patient manager</p>
                
-                    <h5>News search engine, using the information from an api, it has a filter of sections and categories.</h5>
+                    <h5>System for the control and management of a pet clinic </h5>
                   
 
                     <div className="ver-proyect">
-                        <a target="_blank" href="https://buscador-de-noticias-rho.vercel.app/" className="redireccion-proyect">
+                        <a target="_blank" href="https://patient-shift-react.vercel.app/" className="redireccion-proyect">
                             <button className="boton-repo">
                             See project
                                 <div class="arrow-wrapper">
